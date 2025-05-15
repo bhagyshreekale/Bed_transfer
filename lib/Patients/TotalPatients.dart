@@ -2,16 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:transfer_bedapp/widgets/CardTotalPatients.dart';
 import 'package:transfer_bedapp/widgets/CustomSearch.dart';
 
-class Patientsrequest extends StatefulWidget {
-  const Patientsrequest({super.key});
+class Totalpatients extends StatefulWidget {
+  const Totalpatients({super.key});
 
   @override
-  State<Patientsrequest> createState() => _PatientsrequestState();
+  State<Totalpatients> createState() => _TotalpatientsState();
 }
 
-class _PatientsrequestState extends State<Patientsrequest> {
-
+class _TotalpatientsState extends State<Totalpatients> {
   TextEditingController _searchController = TextEditingController();
+
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -34,9 +35,8 @@ class _PatientsrequestState extends State<Patientsrequest> {
           PatientStatusCardApproved(
             date: "Wed, 16 Dec",
             patientName: "John Doe",
-            status: "Wating",
-            statusColor: const Color.fromARGB(255, 195, 176, 129),
-            statusColorText:const Color.fromARGB(255, 138, 118, 70),
+            status: "Approved",
+            statusColor: const Color.fromARGB(255, 119, 184, 121),
             onTap: () {
             
              },
@@ -44,6 +44,6 @@ class _PatientsrequestState extends State<Patientsrequest> {
 
         ],
       ),
-    );;
+    );
   }
 }
