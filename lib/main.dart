@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:transfer_bedapp/widgets/assignexcutive.dart';
 
 void main() {
@@ -28,5 +29,19 @@ class MyApp extends StatelessWidget {
       ),
       home: const AssignExecutivePage(), // renamed for clarity
     );
+=======
+import 'package:transfer_bedapp/Dashboard/dashboardadmin.dart';
+
+void main() {
+  runApp(const MainApp());
+}
+
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(home: Scaffold(body: DashboardScreen()));
+>>>>>>> bbeacd3895b78a41d395ed744b6a731276e0bae1
   }
 }

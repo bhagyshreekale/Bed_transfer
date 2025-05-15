@@ -9,11 +9,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+<<<<<<< HEAD
+=======
+  file_picker: ^6.1.1 
+>>>>>>> bbeacd3895b78a41d395ed744b6a731276e0bae1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+<<<<<<< HEAD
+=======
+  intl: ^0.18.1
+>>>>>>> bbeacd3895b78a41d395ed744b6a731276e0bae1
 
 flutter:
   uses-material-design: true

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'select_executive.dart';
 import 'confirm_reason.dart'; // Make sure this file contains ConfirmReasonPage class
 
@@ -135,5 +136,19 @@ class AssignExecutivePage extends StatelessWidget {
         ),
       ),
     );
+=======
+
+class MyWidget extends StatefulWidget {
+  const MyWidget({super.key});
+
+  @override
+  State<MyWidget> createState() => _MyWidgetState();
+}
+
+class _MyWidgetState extends State<MyWidget> {
+  @override
+  Widget build(BuildContext context) {
+    return const Placeholder();
+>>>>>>> bbeacd3895b78a41d395ed744b6a731276e0bae1
   }
 }
